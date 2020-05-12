@@ -1,0 +1,43 @@
+* {
+  /* With these codes padding and border does not increase it's width and gives intuitive style.*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* FONT LOAD */
+@font-face {
+  font-family: 'ultra';
+  src: url('./fonts/Ultra.otf');
+}
+@font-face {
+  font-family: 'stellar';
+  src: url('./fonts/Stellar-light.otf');
+}
+@font-face {
+  font-family: 'media1';
+  src: url('./fonts/Socialico-Regular.otf');
+}
+@font-face {
+  font-family: 'media2';
+  src: url('./fonts/SocialicoPlus-Plus.otf');
+}
+
+/* BODY */
+body {
+  background-color: black;
+  font: 'ariel', 'roboto';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#background {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+}
