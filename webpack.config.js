@@ -1,14 +1,18 @@
 module.exports = {
-  entry: __dirname + '/client/src/App.jsx',
+  entry: __dirname + '/client/src/components/App.js',
   module: {
     rules: [
       {
-        test: /.jsx?$/,
+        test: /.js?$/,
         loader: 'babel-loader',
         options: {
           presets: ['@babel/preset-react', '@babel/preset-env'],
         },
         exclude: /node_modules/,
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: 'file-loader',
       },
       {
         test: /\.css$/,

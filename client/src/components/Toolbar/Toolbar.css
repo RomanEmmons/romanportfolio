@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'ultra';
+  src: url('../../../public/fonts/Ultra.otf');
+}
+
+@font-face {
+  font-family: 'stellar';
+  src: url('../../../public/fonts/Stellar-light.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.toolbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: black;
+  height: 56px;
+}
+
+.toolbar_logo {
+  margin-left: 1rem;
+}
+
+.toolbar_navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.toolbar_logo a {
+  color: magenta;
+  font-family: 'ultra';
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.toolbar_navigation-items li {
+  padding: 0 0.5rem;
+}
+
+.toolbar_navigation-items a {
+  color: magenta;
+  text-decoration: none;
+  font-family: 'stellar';
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+  color: purple;
+}
+
+@media (max-width: 768px) {
+  .toolbar_navigation-items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar_toggle-button {
+    display: none;
+  }
+  .toolbar_logo {
+    margin-left: 0rem;
+  }
+}
