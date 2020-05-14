@@ -6,10 +6,9 @@ const sidebar = (props) => (
   <aside>
     <img className="sidebar-image" src="../../images/circle-cropped.png"></img>
     <p className="about">
-      Hello! I’m Roman, a San Francisco based Software Engineer. I have a
-      passion for problem solving and learning about new technologies. I build
-      and deploy responsive full-stack Javascript applications with Node.js,
-      Express, MongoDB, MySQL, Redis, AWS, and Nginx.
+      Hello! I’m Roman, a San Francisco based Software Engineer. I build and
+      deploy responsive full-stack Javascript applications using React, Node.js,
+      Express, MongoDB, MySQL, Redis, AWS, Nginx among other technologies.
     </p>
     <p className="about">
       If you have a project that is inclusive and effects peoples' lives in a

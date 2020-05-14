@@ -10,13 +10,10 @@ const sideDrawer = (props) => {
     <nav className={drawerClasses} onClick={props.click}>
       <ul>
         <li>
-          <a href="/">About</a>
+          <a href="mailto:roman.emmons@gmail.com">Email</a>
         </li>
         <li>
-          <a href="/">Portfolio</a>
-        </li>
-        <li>
-          <a href="/">Contact</a>
+          <a href="tel:+14154390623">Call</a>
         </li>
       </ul>
     </nav>

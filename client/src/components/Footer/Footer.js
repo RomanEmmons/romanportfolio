@@ -4,12 +4,26 @@ import './Footer.css';
 
 const footer = (props) => (
   <footer>
-    <a className="footer-items" href="mailto:roman.emmons@gmail.com">
-      roman.emmons@gmail.com
+    <a href="https://github.com/RomanEmmons" className="footer-items2">
+      Z
     </a>
-    <div className="spacer" />
-    <a className="footer-items" href="tel:+14154390623">
-      (415)439-0623
+    <a
+      href="https://www.linkedin.com/in/roman-emmons-a4a048180"
+      className="footer-items1"
+    >
+      I
+    </a>
+    <a
+      href="https://www.instagram.com/liquor_rich/?hl=en"
+      className="footer-items2"
+    >
+      I
+    </a>
+    <a
+      href="https://www.facebook.com/romandanielemmons"
+      className="footer-items1"
+    >
+      F
     </a>
   </footer>
 );

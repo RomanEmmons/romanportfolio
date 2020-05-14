@@ -30,14 +30,16 @@
 }
 
 .side-drawer li {
-  margin: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
 }
 
 .side-drawer a {
   font-family: 'stellar', Arial, Helvetica, sans-serif;
   color: magenta;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .side-drawer a:hover,

@@ -16,13 +16,13 @@ const toolbar = (props) => (
       <div className="toolbar_navigation-items">
         <ul>
           <li>
-            <a href="/">About</a>
+            <a href="mailto:roman.emmons@gmail.com">roman.emmons@gmail.com</a>
           </li>
           <li>
-            <a href="/">Portfolio</a>
+            <a>||</a>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <a href="tel:+14154390623">(415)439-0623</a>
           </li>
         </ul>
       </div>
