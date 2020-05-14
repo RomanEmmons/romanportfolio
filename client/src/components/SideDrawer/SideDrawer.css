@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'stellar';
+  src: url('../../../public/fonts/Stellar-light.otf');
+}
+
 .side-drawer {
   height: 100%;
   background-color: black;
@@ -29,6 +34,7 @@
 }
 
 .side-drawer a {
+  font-family: 'stellar', Arial, Helvetica, sans-serif;
   color: magenta;
   text-decoration: none;
   font-size: 1.2rem;

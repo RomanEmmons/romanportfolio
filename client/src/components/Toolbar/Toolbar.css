@@ -8,23 +8,13 @@
   src: url('../../../public/fonts/Stellar-light.otf');
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
-
 .toolbar {
   width: 100%;
   top: 0;
   left: 0;
   position: fixed;
   background-color: black;
-  height: 56px;
+  height: 63px;
 }
 
 .toolbar_logo {
@@ -42,7 +32,7 @@
   color: magenta;
   font-family: 'ultra';
   text-decoration: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 

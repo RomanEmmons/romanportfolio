@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Toolbar from './Toolbar/Toolbar.js';
 import SideDrawer from './SideDrawer/SideDrawer.js';
 import Backdrop from './Backdrop/Backdrop.js';
+import Footer from './Footer/Footer.js';
 
 class App extends React.Component {
   constructor() {
@@ -32,16 +33,19 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <div style={{ height: '100%' }}>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer
-          show={this.state.sideDrawerOpen}
-          click={this.backdropClickHandler}
-        />
+      <div className="wrapper" style={{ height: '100%' }}>
+        <header>
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer
+            show={this.state.sideDrawerOpen}
+            click={this.backdropClickHandler}
+          />
+        </header>
         {backdrop}
-        <main style={{ marginTop: '64px' }}>
-          <p>HEY, It's content!</p>
-        </main>
+        <main></main>
+        <aside></aside>
+
+        <Footer />
       </div>
     );
   }
