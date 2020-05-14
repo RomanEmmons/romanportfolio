@@ -4,6 +4,8 @@ import Toolbar from './Toolbar/Toolbar.js';
 import SideDrawer from './SideDrawer/SideDrawer.js';
 import Backdrop from './Backdrop/Backdrop.js';
 import Footer from './Footer/Footer.js';
+import Sidebar from './Sidebar/Sidebar.js';
+import Portfolio from './Portfolio/Portfolio.js';
 
 class App extends React.Component {
   constructor() {
@@ -42,9 +44,8 @@ class App extends React.Component {
           />
         </header>
         {backdrop}
-        <main></main>
-        <aside></aside>
-
+        <Portfolio />
+        <Sidebar />
         <Footer />
       </div>
     );

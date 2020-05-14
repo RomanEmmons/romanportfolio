@@ -64,29 +64,22 @@ header {
 
 main {
   grid-area: portfolio;
-  background-color: magenta;
   padding: 20px;
 }
 
 aside {
   grid-area: sidebar;
-  background-color: magenta;
   padding: 20px;
 }
 
-/* footer {
+footer {
   height: 50px;
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px;
   grid-area: footer;
-  background-color: black;
-  width: 100%;
-  color: magenta;
-  text-align: right;
-  font-family: 'stellar', Arial, Helvetica, sans-serif;
-} */
+}
 
 .wrapper {
   display: grid;
@@ -106,5 +99,11 @@ aside {
       'sidebar'
       'portfolio'
       'footer';
+  }
+  video {
+    visibility: hidden;
+  }
+  body {
+    background-image: url('./images/still.jpg');
   }
 }
