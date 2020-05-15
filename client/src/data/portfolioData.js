@@ -20,7 +20,7 @@ const portfolioData = [
     description:
       'This is a MeetUp clone that I created with an AGILE team of 3 other engineers.  I had a lot of fun scaling this app and load testing it with Artillery JS and New Relic.  It implements Redis data caching to benchmark at 10k rps with an average latency of 150ms while querying a database of over 35 million records!',
     tech:
-      'React, Node.js, Express, MySQL, Redis, Microservices, New Relic, Artillery.js, Faker.js, AWS EC2',
+      'React, Node.js, Express, MySQL, Redis, New Relic, Artillery.js, Faker.js, AWS EC2',
     github: 'https://github.com/Dr-Katherine-Johnson/RSVP',
   },
 
@@ -30,7 +30,7 @@ const portfolioData = [
     description:
       'Stock Tracker is a Robinhood clone built with microservice architecture.  It implements Docker Compose for easy microservice and database deployment.  It also includes a testing suite with Jest, Mocha, and Chai for a gauranteed UX!',
     tech:
-      'React, Node.js, Express, MongoDB, Docker, Microservices, Mocha, Jest, Chai, Faker.js, AWS EC2',
+      'React, Node.js, Express, MongoDB, Docker, Mocha, Jest, Chai, Faker.js, AWS EC2',
     github: 'https://github.com/Stock-Tracker/about-microservice',
   },
   {
@@ -46,7 +46,7 @@ const portfolioData = [
     image: repopng,
     description:
       "This full stack application utilizes the Github API to return information about a specified user's top 25 repos.  The repos are sorted by number of stars and persist in MongoDB.",
-    tech: 'React, Node.js, Express, MongoDB, REST, CSS, HTML, AWS EC2',
+    tech: 'React, Node.js, Express, MongoDB, REST, CSS, HTML',
     github: 'https://github.com/RomanEmmons/RepoRetriever',
   },
 ];

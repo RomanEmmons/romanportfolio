@@ -1,5 +1,5 @@
 {
-  "name": "portfolio2.0",
+  "name": "romanportfolio",
   "version": "1.0.0",
   "description": "second iteration",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RomanEmmons/portfolio2.0.git"
+    "url": "git+https://github.com/RomanEmmons/romanportfolio.git"
   },
   "author": "Roman Emmons",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RomanEmmons/portfolio2.0/issues"
+    "url": "https://github.com/RomanEmmons/romanportfolio/issues"
   },
-  "homepage": "https://github.com/RomanEmmons/portfolio2.0#readme",
+  "homepage": "https://github.com/RomanEmmons/romanportfolio#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "css-loader": "^3.5.3",
