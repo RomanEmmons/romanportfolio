@@ -6,6 +6,7 @@ import Backdrop from './Backdrop/Backdrop.js';
 import Footer from './Footer/Footer.js';
 import Sidebar from './Sidebar/Sidebar.js';
 import Portfolio from './Portfolio/Portfolio.js';
+import portfolioData from '../data/portfolioData.js';
 
 class App extends React.Component {
   constructor() {
@@ -16,6 +17,10 @@ class App extends React.Component {
 
     this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
     this.backdropClickHandler = this.backdropClickHandler.bind(this);
+  }
+
+  componentDidMount() {
+    this.setState({ portfolioData: portfolioData });
   }
 
   drawerToggleClickHandler() {
@@ -44,7 +49,7 @@ class App extends React.Component {
           />
         </header>
         {backdrop}
-        <Portfolio />
+        <Portfolio portfolioData={this.state.portfolioData} />
         <Sidebar />
         <Footer />
       </div>
