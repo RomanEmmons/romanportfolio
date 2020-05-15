@@ -1,8 +1,8 @@
-import chonkygif from '../../public/17326b5521ba5f29a16109cbaafc011a.gif';
-import rsvpgif from '../../public/11cb9ba17c1ae4b783ae3856217d7c16.gif';
-import stockgif from '../../public/f34e8a88cef17e7317fe983470f68482.gif';
-import repopng from '../../public/b271cd856cb073dd1cda573d915e2a4d.png';
-import bluegif from '../../public/a5a93d27b922c9ef8f150b83fa5dc84f.gif';
+import chonkygif from './ChonkyCat.gif';
+import rsvpgif from './RSVP-Up.gif';
+import stockgif from './StockTracker.gif';
+import repopng from './RepoRetriever.png';
+import bluegif from './BlueDaisy.gif';
 
 const portfolioData = [
   {
