@@ -30,7 +30,7 @@ const portfolioData = [
     description:
       'Stock Tracker is a Robinhood clone built with microservice architecture.  It implements Docker Compose for easy microservice and database deployment.  It also includes a testing suite with Jest, Mocha, and Chai for a gauranteed UX!',
     tech:
-      'React, Node.js, Express, MongoDB, Microservices, Mocha, Jest, Chai, Faker.js, AWS EC2',
+      'React, Node.js, Express, MongoDB, Docker, Microservices, Mocha, Jest, Chai, Faker.js, AWS EC2',
     github: 'https://github.com/Stock-Tracker/about-microservice',
   },
   {

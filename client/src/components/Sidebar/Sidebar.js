@@ -12,8 +12,8 @@ const sidebar = (props) => (
       <p className="about">
         Hello! I’m Roman, a San Francisco based Software Engineer. I build and
         deploy responsive full-stack Javascript applications using React,
-        Node.js, Express, MongoDB, MySQL, Redis, AWS, and Nginx... among other
-        technologies.
+        Node.js, Express, MongoDB, MySQL, Redis, Docker, AWS, and Nginx... among
+        other technologies.
       </p>
       <p className="about">
         If you have a project that is inclusive and effects peoples' lives in a

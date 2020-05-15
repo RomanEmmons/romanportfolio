@@ -7,16 +7,18 @@ const portfolio = (props) => {
       {props.portfolioData
         ? props.portfolioData.map((item, ind) => {
             return (
-              <a href={item.github}>
-                <span key={ind} className="portfolio-item">
-                  <img className="item-image" src={item.image}></img>
-                  <div>
-                    <h1 className="item-title">{item.title}</h1>
-                    <p className="item-description">{item.description}</p>
-                    <p className="item-description">{item.tech}</p>
-                  </div>
-                </span>
-              </a>
+              <div key={ind}>
+                <a href={item.github}>
+                  <span className="portfolio-item">
+                    <img className="item-image" src={item.image}></img>
+                    <div>
+                      <h1 className="item-title">{item.title}</h1>
+                      <p className="item-description">{item.description}</p>
+                      <p className="item-description">{item.tech}</p>
+                    </div>
+                  </span>
+                </a>
+              </div>
             );
           })
         : null}
