@@ -43,12 +43,12 @@ class App extends React.Component {
       <div className="wrapper" style={{ height: '100%' }}>
         <header>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+          {backdrop}
           <SideDrawer
             show={this.state.sideDrawerOpen}
             click={this.backdropClickHandler}
           />
         </header>
-        {backdrop}
         <Portfolio portfolioData={this.state.portfolioData} />
         <Sidebar />
         <Footer />
