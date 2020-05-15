@@ -2,10 +2,7 @@
   font-family: 'media1';
   src: url('../../../public/fonts/Socialico-Regular.otf');
 }
-/* @font-face {
-  font-family: 'media2';
-  src: url('../../../public/fonts/SocialicoPlus-Plus.otf');
-} */
+
 @font-face {
   font-family: 'media2';
   src: url('../../../public/fonts/SocialicoPlus-Plus.otf');

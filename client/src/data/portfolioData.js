@@ -9,7 +9,7 @@ const portfolioData = [
     title: 'Chonky Cat',
     image: chonkygif,
     description:
-      "This application returns a list of plus size cats that are available for adoption with in 150 miles of the user's zipcode.  It utilizes MongoDB's schema flexibility to store information gathered from the Petfinder API and a built in web scraper.  It also implements a MySQL database seeded with the latitude and longitude of every zip code in the US for lightening fast response times.  Big cats need love too!",
+      "This application returns a list of extra-large cats that are available for adoption with in 150 miles of the user's zipcode.  It utilizes MongoDB's schema flexibility to store information gathered from the Petfinder API and a built in web scraper.  It also implements a MySQL database seeded with the latitude and longitude of every zip code in the US for lightening fast response times.  Big cats need love too!",
     tech: 'React, Node.js, Express, MongoDB, MySQL, REST, AWS EC2',
     github: 'https://github.com/RomanEmmons/chonky-cat',
   },

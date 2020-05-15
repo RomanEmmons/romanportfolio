@@ -20,6 +20,12 @@ const sidebar = (props) => (
         positive way, I'd like to discuss how my experience and your vision can
         align to make the internet a better place.
       </p>
+      <a
+        className="about underline"
+        href="https://docs.google.com/document/d/1nFQStBEMXM8axnWOH1fD_k7nsr8zGqjFr1zNUMbKLvQ/edit?usp=sharing"
+      >
+        Check out my resume!
+      </a>
     </div>
   </aside>
 );

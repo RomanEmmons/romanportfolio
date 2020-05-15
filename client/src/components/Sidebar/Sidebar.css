@@ -27,6 +27,10 @@ aside {
   padding: 0.5rem;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .sidebar-image {
   height: auto;
   max-width: 70%;

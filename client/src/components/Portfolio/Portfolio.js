@@ -11,6 +11,11 @@ const portfolio = (props) => {
                 <a href={item.github}>
                   <span className="portfolio-item">
                     <img className="item-image" src={item.image}></img>
+                    <div className="github-icon">
+                      <p className="overlay">Visit the repo</p>
+                      <span>Z</span>
+                    </div>
+
                     <div>
                       <h1 className="item-title">{item.title}</h1>
                       <p className="item-description">{item.description}</p>
