@@ -28,7 +28,11 @@ aside {
 }
 
 .underline {
+  font-family: 'stellar', Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+  color: magenta;
   text-decoration: underline;
+  padding: 10px 15px 5px 25px;
 }
 
 .underline:hover {

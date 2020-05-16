@@ -1,14 +1,14 @@
-import chonkygif from './ChonkyCat.png';
-import rsvpgif from './RSVP-Up.png';
-import stockgif from './StockTracker.png';
+import chonkypng from './ChonkyCat.png';
+import rsvppng from './RSVP-Up.png';
+import stockpng from './StockTracker.png';
 import repopng from './RepoRetriever.png';
-import bluegif from './BlueDaisy.png';
+import bluepng from './BlueDaisy.png';
 import myportfolio from './MyPortfolio.png';
 
 const portfolioData = [
   {
     title: 'Chonky Cat',
-    image: chonkygif,
+    image: chonkypng,
     description:
       "This application returns a list of extra-large cats that are available for adoption with in 150 miles of the user's zipcode.  It utilizes MongoDB's input flexibility to store information gathered from a built in web scraper and the Petfinder API.  It also implements a MySQL database seeded with the latitude and longitude of every zip code in the US for quick search results.  Big cats need love too!",
     tech:
@@ -18,17 +18,17 @@ const portfolioData = [
 
   {
     title: 'RSVP-Up',
-    image: rsvpgif,
+    image: rsvppng,
     description:
-      'This is a MeetUp clone that I created with an AGILE team of 3 other engineers.  I had a lot of fun scaling this app and load testing it with Artillery JS and New Relic.  It implements Redis data caching to benchmark at 10k rps with an average latency of 150ms while querying a database of over 35 million records!',
+      'This is a MeetUp clone that I created with an AGILE team of 3 other engineers.  I had a lot of fun scaling this app and load testing it with Artillery and New Relic.  It implements Redis data caching to benchmark at 10k rps with an average latency of 150ms while querying a database of over 35 million records!',
     tech:
-      'React, Node.js, Webpack, Babel, Express, MySQL, Redis, , New Relic, Artillery.js, Faker.js, AWS EC2',
+      'React, Node.js, Webpack, Babel, Express, MySQL, Redis, , New Relic, Artillery, Faker.js, AWS EC2',
     github: 'https://github.com/Dr-Katherine-Johnson/RSVP',
   },
 
   {
     title: 'Stock Tracker',
-    image: stockgif,
+    image: stockpng,
     description:
       'Stock Tracker is a Robinhood clone built with microservice architecture.  It implements Docker Compose for easy microservice and database deployment.  It also includes a testing suite with Jest, Mocha, and Chai for a gauranteed UX!',
     tech:
@@ -37,10 +37,11 @@ const portfolioData = [
   },
   {
     title: 'Blue Daisy Way',
-    image: bluegif,
+    image: bluepng,
     description:
-      'This is fully responsive single page artist portfolio implements CSS grid and flex for a beautiful UI regardless of screen size!',
-    tech: 'React, Node.js, Webpack, Babel, Express, vanilla CSS, HTML, AWS EC2',
+      'This fully responsive single page artist portfolio implements CSS grid and flex for a beautiful UI regardless of screen size!',
+    tech:
+      'React, Node.js, Webpack, Babel, Express, vanilla CSS, Nodemailer, HTML, AWS EC2',
     github: 'https://github.com/RomanEmmons/Molly-Souza-Artist-Portfolio',
   },
   {
@@ -55,7 +56,7 @@ const portfolioData = [
     title: 'My Portfolio',
     image: myportfolio,
     description:
-      'So meta... this site was 100% built and deployed by me. No Create React App bootstrap or templates of were used in any way.',
+      'So meta... this site was 100% built and deployed by me. No templates were used, and it was NOT bootstrapped with Create React App.',
     tech:
       'React, Webpack, Babel, Node.js, Express, CSS, HTML, Nginx, PM2, AWS EC2, SSL',
     github: 'https://github.com/RomanEmmons/romanportfolio',

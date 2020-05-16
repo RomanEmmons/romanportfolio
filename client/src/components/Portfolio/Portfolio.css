@@ -103,6 +103,7 @@ a {
   .item-image {
     width: 100%;
     height: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
   }
   .item-description {
     font-size: 1.15rem;
