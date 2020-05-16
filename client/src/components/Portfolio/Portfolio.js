@@ -16,7 +16,7 @@ const portfolio = (props) => {
                       <span>Z</span>
                     </div>
 
-                    <div>
+                    <div className="description-wrapper">
                       <h1 className="item-title">{item.title}</h1>
                       <p className="item-description">{item.description}</p>
                       <p className="item-description">{item.tech}</p>

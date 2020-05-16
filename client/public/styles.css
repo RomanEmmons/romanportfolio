@@ -73,12 +73,8 @@ aside {
 }
 
 footer {
-  height: 50px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 20px;
   grid-area: footer;
+  padding: 20px;
 }
 
 .wrapper {
