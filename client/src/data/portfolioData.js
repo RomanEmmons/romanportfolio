@@ -30,7 +30,7 @@ const portfolioData = [
     title: 'Stock Tracker',
     image: stockpng,
     description:
-      'Stock Tracker is a Robinhood clone built with microservice architecture.  It implements Docker Compose for easy microservice and database deployment.  It also includes a testing suite with Jest, Mocha, and Chai for a gauranteed UX!',
+      'Stock Tracker is a full stack Robinhood clone built with microservice architecture.  It implements Docker Compose for seamless deployment of both the microservice and the database associated with it.  It also includes tests suites built with Jest, Mocha, and Chai for a gauranteed UX!',
     tech:
       'React, Node.js, Webpack, Babel, Express, MongoDB, Docker, Mocha, Jest, Chai, Faker.js, AWS EC2',
     github: 'https://github.com/Stock-Tracker/about-microservice',
@@ -56,7 +56,7 @@ const portfolioData = [
     title: 'My Portfolio',
     image: myportfolio,
     description:
-      'So meta... this site was 100% built and deployed by me. No templates were used, and it was NOT bootstrapped with Create React App.',
+      'This site was 100% built, configured, and deployed by me. No templates or themes were used, and it was not bootstrapped with Create React App.',
     tech:
       'React, Webpack, Babel, Node.js, Express, CSS, HTML, Nginx, PM2, AWS EC2, SSL',
     github: 'https://github.com/RomanEmmons/romanportfolio',
