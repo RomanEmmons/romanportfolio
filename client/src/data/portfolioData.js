@@ -1,9 +1,9 @@
-import chonkygif from './ChonkyCat.gif';
-import rsvpgif from './RSVP-Up.gif';
-import stockgif from './StockTracker.gif';
+import chonkygif from './ChonkyCat.png';
+import rsvpgif from './RSVP-Up.png';
+import stockgif from './StockTracker.png';
 import repopng from './RepoRetriever.png';
-import bluegif from './BlueDaisy.gif';
-import myportfolio from './MyPortfolio.gif';
+import bluegif from './BlueDaisy.png';
+import myportfolio from './MyPortfolio.png';
 
 const portfolioData = [
   {
@@ -55,7 +55,7 @@ const portfolioData = [
     title: 'My Portfolio',
     image: myportfolio,
     description:
-      "So meta... this site was 100% created by me. No 'Create React App', Bootstrap, or template of any kind.",
+      'So meta... this site was 100% built and deployed by me. No Create React App bootstrap or templates of were used in any way.',
     tech:
       'React, Webpack, Babel, Node.js, Express, CSS, HTML, Nginx, PM2, AWS EC2, SSL',
     github: 'https://github.com/RomanEmmons/romanportfolio',
