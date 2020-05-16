@@ -74,6 +74,9 @@ header {
   .toolbar_navigation-items {
     display: none;
   }
+  .toolbar_toggle-button {
+    margin-left: -4vw;
+  }
 }
 
 @media (min-width: 769px) {
